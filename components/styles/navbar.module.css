@@ -1,0 +1,96 @@
+.navbar_container {
+    width: 100%;
+  }
+  
+  .navbar {
+    margin: 0 auto;
+    padding: 20px clamp(20px, 5vw, 50px);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .brand {
+    height: auto;
+    width: clamp(180px, 20vw, 200px);
+  }
+  
+  .nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    gap: clamp(10px, 2vw, 30px);
+  }
+  
+  .nav {
+    font-size: clamp(0.9em, 1.5vw, 1em);
+    cursor: pointer;
+    color: #69f570;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav:hover {
+    transform: translateY(-3px);
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+  }
+  
+  .nav_toggle {
+    display: none;
+    font-size: 30px;
+    color: #69f570;
+    cursor: pointer;
+  }
+  
+  .nav_container_responsive {
+    display: none;
+  }
+  .toggle {
+    display: none;
+  }
+  
+  @media (max-width: 450px) {
+    .brand_container {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .toggle {
+      display: block;
+    }
+    .collapsed {
+      opacity: 0;
+      height: 0;
+      margin-top: 0;
+      transition: height 0.4s ease-in-out, opacity 0.2s linear,
+        margin-top 0.2s ease;
+    }
+  
+    .expanded {
+      opacity: 1;
+      height: 90px;
+      margin-top: 40px;
+      transition: all 0.4s ease-in-out;
+      transition: height 0.4s ease-in-out, opacity 0.2s linear 0.2s,
+        margin-top 0.4s ease;
+    }
+  
+    .nav_container {
+      display: none;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav_container_responsive {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+      gap: 20px;
+    }
+  }
