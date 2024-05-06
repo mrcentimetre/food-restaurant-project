@@ -32,11 +32,11 @@ const HeroSection = () => {
           <p className="text-[#4A4A4A] text-[20px]">
           Where each plate weaves a story<br />of Sri Lankan traditional food.
           </p>
-          <button className="bg-[#39DB4A] drop-shadow-md font-semibold btn text-white px-8 py-3 rounded-[50px] hover:translate-y-[-3px] hover:ease-in-out hover:scale-110 transition-all duration-300 hover:shadow">
+          <button className="bg-[#39DB4A] drop-shadow-md font-semibold text-white px-8 py-3 rounded-[50px] hover:translate-y-[-3px] hover:ease-in-out hover:scale-110 transition-all duration-300 hover:shadow">
             Order Now
           </button>
         
-          <button className="ml-[25px] bg-white drop-shadow-md font-semibold btn text-black px-8 py-3 rounded-[50px] hover:translate-y-[-3px] hover:ease-in-out hover:scale-110 transition-all duration-300 hover:shadow">
+          <button className="ml-[25px] bg-white drop-shadow-md font-semibold text-black px-8 py-3 rounded-[50px] hover:translate-y-[-3px] hover:ease-in-out hover:scale-110 transition-all duration-300 hover:shadow">
             Contact Us
           </button>
           
