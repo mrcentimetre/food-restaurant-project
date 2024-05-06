@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "./styles/navBar.module.css";
+import styles from "./styles/navbar.module.css";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -53,7 +53,7 @@ const NavBar = () => {
           </li>
           <li
             className={styles.nav} onClick={() => handleNavigate("/login")}>
-              <button className="bg-[#39DB4A] font-semibold btn text-white px-8 py-3 rounded-full">
+              <button className="bg-[#39DB4A] font-semibold text-white px-8 py-3 rounded-full">
                 Log In
               </button>
           </li>

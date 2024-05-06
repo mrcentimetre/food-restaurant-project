@@ -2,10 +2,10 @@
 
 const Footer = () => {
   return (
-    <footer className="relative z-[-1] flex place-items-center before:absolute before:h-[400px] before:w-full before:-translate-x-6 before:-translate-y-2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl 
-before:content-[''] after:absolute after:-z-20 after:h-[120px] after:w-full after:translate-x-1/6 after:translate-y-1/2 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-[#22c55e] before:dark:opacity-10 after:dark:from-green-950 after:dark:via-[#22c55e] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
+    <footer className="relative bg-black flex place-items-center before:absolute before:h-[400px] before:w-full before:-translate-x-6 before:-translate-y-2 before:rounded-full before:blur-2xl 
+before:content-[''] after:absolute after:-z-20 after:h-[120px] after:w-full after:translate-x-1/6 after:translate-y-1/2 after:bg-gradient-conic after:blur-2xl after:content-[''] before:bg-gradient-to-br before:from-transparent before:to-[#22c55e] before:opacity-10 after:from-green-950 after:via-[#22c55e] after:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
     {/* <div className="before:absolute before:h-[400px] before:w-full before:-translate-x-6 before:-translate-y-2 before:rounded-full before:bg-gradient-radial before:from-green before:to-transparent before:blur-2xl before:content-[''] before:right-0 before:bottom-0 before:top-0 before:z-10" /> */}
-    <div className="after:absolute z-[-1] after:h-full after:w-[100px] after:rounded-full after:bg-gradient-to-l after:translate-x-1/6 after:translate-y-6 from-transparent to-green-950 after:blur-2xl after:right-0 after:top-0 after:z-10" />
+    <div className="after:absolute after:h-full after:w-[100px] after:rounded-full after:bg-gradient-to-l after:translate-x-1/6 after:translate-y-6 from-transparent to-green-950 after:blur-2xl after:right-0 after:top-0 after:z-10" />
     {/* <div className="after:absolute after:h-[120px] after:w-full after:translate-x-1/6 after:translate-y-1/2 after:bg-gradient-conic after:from-green-950 after:via-green after:blur-2xl after:content-[''] after:right-0 after:bottom-0 after:z-0" /> */}   
 
     <div className="container px-7 py-12 mx-auto">
@@ -14,7 +14,7 @@ before:content-[''] after:absolute after:-z-20 after:h-[120px] after:w-full afte
             <div className="sm:col-span-2">
             <aside>
                 <img src="/toclogo.png" alt="" width="100px" height="100px" />
-                <p className="my-5 md:w-45">
+                <p className="my-5 md:w-45 text-white">
                 Taste of Ceylon offers you an amazing culinary adventure with our home-cooked meals, bringing the full taste of Sri Lanka to your plate. Savor the flavor of tradition and liven up your mealtime with us!
                 </p>
             </aside>
@@ -95,8 +95,8 @@ dark:hover:text-blue-400" aria-label="Github">
 
         <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700"/>
 
-        <div className="flex items-center justify-center">
-            <p>Copyright 2024, All Rights Reserved by Game Kade</p>
+        <div className="flex items-center justify-center text-white">
+            <p>Copyright 2024, All Rights Reserved by Taste of Ceylon</p>
         </div>
         </div>
         </footer>

@@ -21,7 +21,7 @@ const PopularCategories = () => {
                         <div className='w-full mx-auto flex items-center justify-center'><img src={item.image} alt="" className='bg-[#C1F1C6] p-1 rounded-full w-28 h-28' /></div>
                         <div className='mt-5 space-y-1'>
                             <h5 className='text-black text-[19px] font-semibold'>{item.title}</h5>
-                            <p className='text-secondary text-black text-sm'>{item.despriction}</p>
+                            <p className=' text-black text-sm'>{item.despriction}</p>
                         </div>
                     </div>
                 ))
